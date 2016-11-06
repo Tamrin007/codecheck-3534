@@ -1,5 +1,3 @@
-build:
-- go build -o theapp
 env:
-  APP_COMMAND: ./theapp
+  APP_COMMAND: node index.js
 test: mocha
